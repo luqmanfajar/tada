@@ -1,0 +1,5 @@
+#!/bin/bash
+while :
+do
+echo Grabbing $(curl -s http://instawawa.com/SGB/caaya | egrep -r 'valid|url' >> caaya.txt)
+done
